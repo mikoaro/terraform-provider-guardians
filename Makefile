@@ -4,7 +4,8 @@ NAMESPACE=edu
 NAME=guardians
 BINARY=terraform-provider-${NAME}
 VERSION=0.2
-OS_ARCH=darwin_amd64
+OS_ARCH=darwin_arm64
+OS_ARCH_INTEL=darwin_amd64
 
 default: install
 
